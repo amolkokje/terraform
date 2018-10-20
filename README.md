@@ -10,10 +10,10 @@ Ther description for the variables is given in the variables.tf file. If not spe
 ## vSphere
 
 ### Credentials for vSphere
-vsphere_user = <>
-vsphere_password = <> 
-vsphere_vcenter = <>
-vsphere_unverified_ssl = <>
+vsphere_user = <> <br />
+vsphere_password = <> <br />
+vsphere_vcenter = <> <br />
+vsphere_unverified_ssl = <> <br />
 
 ### VM Specifications
 vsphere_datacenter = <>
