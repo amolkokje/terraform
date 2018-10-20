@@ -4,8 +4,8 @@
 
 resource "aws_instance" "test-ec2-instance" {
     ami           = "${lookup(var.AMIS, var.AWS_REGION)}"
-    instance_type = "t2.micro"
+    instance_type = "${var.ec2_instance_type}"
     tags = {
-        Name = "terraform-test"
+        Name = "amol-terraform-test"
     }
 }

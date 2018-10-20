@@ -1,5 +1,5 @@
 # --------------------------------
-# AWS Connection
+# AWS Connection - Private
 # --------------------------------
 
 variable "AWS_ACCESS_KEY" {
@@ -27,4 +27,5 @@ variable "AMIS" {
 
 variable "ec2_instance_type" {
     description = "AWS EC2 instance type"
+    default = "t2.micro"
 }
