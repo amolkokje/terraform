@@ -30,7 +30,7 @@ data "vsphere_resource_pool" "pool" {
 # Resources
 # --------------------------------
 
-# Create a vSphere VM in the folder #
+# Create a vSphere VM#
 resource "vsphere_virtual_machine" "amol-vm" {
     # VM placement #
     name             = "amol-vm"
@@ -58,7 +58,6 @@ resource "vsphere_virtual_machine" "amol-vm" {
     clone {
         template_uuid = "${data.vsphere_virtual_machine.template.id}"
 
-        # Customiz VM - Not Required
         customize {
             linux_options {
                 host_name = "amol-vm"
