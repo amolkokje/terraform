@@ -16,24 +16,24 @@ vsphere_vcenter = <> <br />
 vsphere_unverified_ssl = <> <br />
 
 ### VM Specifications
-vsphere_datacenter = <>
-vsphere_vm_name = <>
-vsphere_vm_template = <>
-vsphere_vcpu_number = <>
-vsphere_memory_size = <>
-vsphere_datastore = <>
-vsphere_ipv4_address = <>
-vsphere_dns_servers = <>
-vsphere_domain = <>
-vsphere_time_zone = <>
-vsphere_port_group = <>
+vsphere_datacenter = <> <br />
+vsphere_vm_name = <> <br />
+vsphere_vm_template = <> <br />
+vsphere_vcpu_number = <> <br />
+vsphere_memory_size = <> <br />
+vsphere_datastore = <> <br />
+vsphere_ipv4_address = <> <br />
+vsphere_dns_servers = <> <br />
+vsphere_domain = <> <br />
+vsphere_time_zone = <> <br />
+vsphere_port_group = <> <br />
 
 ## AWS
 
 ### Credentials for AWS
-AWS_ACCESS_KEY = <>
-AWS_SECRET_KEY = <>
-AWS_REGION = <>
+AWS_ACCESS_KEY = <> <br />
+AWS_SECRET_KEY = <> <br />
+AWS_REGION = <> <br />
     
 ### VM Specifications
-ec2_instance_type = <>
+ec2_instance_type = <> <br />
